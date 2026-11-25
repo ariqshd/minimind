@@ -13,14 +13,14 @@ project in order: read the code → run the model → train it → improve it.
 ### Stage 0 — Setup
 - [x] Fork the repo and clone to `D:\minimind`
 - [x] Create study branch `study/progress-tracker`
-- [ ] Install dependencies: `pip install -r requirements.txt`
-- [ ] Check GPU is seen: `python -c "import torch; print(torch.cuda.is_available())"`
+- [x] Install dependencies: `pip install -r requirements.txt`
+- [x] Check GPU is seen: `python -c "import torch; print(torch.cuda.is_available())"`
 
 ### Stage 1 — Just run it
-- [ ] Download the ready-made model into `./minimind-3`
-- [ ] Chat in the terminal: `python eval_llm.py --load_from ./minimind-3`
-- [ ] Open the web chat: `cd scripts && streamlit run web_demo.py`
-- [ ] Write down 3 things the model does well and 3 things it gets wrong
+- [x] Download the ready-made model into `./minimind-3`
+- [x] Chat in the terminal: `python eval_llm.py --load_from ./minimind-3`
+- [x] Open the web chat: `cd scripts && streamlit run web_demo.py`
+- [x] Write down 3 things the model does well and 3 things it gets wrong
 
 ### Stage 2 — Read the code
 - [ ] `model/model_minimind.py` — how the model is built
